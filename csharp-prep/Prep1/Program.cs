@@ -7,7 +7,7 @@ class Program
         Console.WriteLine("Hello Prep1 World!");
 
 
-//Task 1
+//Ask user for their name.
         Console.Write("What is your first name? ");
         string firstName = Console.ReadLine();
 

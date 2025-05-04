@@ -6,7 +6,7 @@ class Program
     {
         // Console.WriteLine("Hello Prep2 World!");
 
-         //Ask user for their grade percentage.
+        //Ask user for their grade percentage.
         Console.Write("What is your grade percentage (number only)? ");
         string userInput = Console.ReadLine();
         int number = int.Parse(userInput);
@@ -64,5 +64,6 @@ class Program
         else if (number < 70)
         {
             Console.WriteLine("I'm sorry, you didn't make it this time. But try again next time.");
+        }
     }
 }

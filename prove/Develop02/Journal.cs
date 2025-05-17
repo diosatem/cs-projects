@@ -34,7 +34,7 @@ public class Journal
                 outputFile.WriteLine(entry.DisplaySingleEntry());
             }
         }
-                Console.WriteLine("File saved,");
+                Console.WriteLine("File saved.");
 
     }
 

@@ -21,7 +21,7 @@ class Program
             Console.WriteLine("Choose an option:");
             Console.WriteLine("1) Write");
             Console.WriteLine("2) Display");
-            Console.WriteLine("3) Load saved en tries");
+            Console.WriteLine("3) Load saved entries");
             Console.WriteLine("4) Save");
             Console.WriteLine("5) Quit");
 

@@ -1,0 +1,43 @@
+[
+   {
+      "volume_title": "Pearl of Great Price",
+      "book_title": "Moses",
+      "book_short_title": "Moses",
+      "chapter_number": 1,
+      "verse_number": 39,
+      "verse_title": "Moses 1:39",
+      "verse_short_title": "Moses 1:39",
+      "scripture_text": "For behold, this is my work and my glory--to bring to pass the immortality and eternal life of man."
+   },
+   {
+      "volume_title": "New Testament",
+      "book_title": "Matthew",
+      "book_short_title": "Matt.",
+      "chapter_number": 5,
+      "verse_number": 15,
+      "verse_title": "Matthew 5:15",
+      "verse_short_title": "Matt. 5:15",
+      "scripture_text": "Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house."
+   },
+   {
+      "volume_title": "New Testament",
+      "book_title": "Matthew",
+      "book_short_title": "Matt.",
+      "chapter_number": 5,
+      "verse_number": 16,
+      "verse_title": "Matthew 5:16",
+      "verse_short_title": "Matt. 5:16",
+      "scripture_text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."
+   },
+   {
+        "volume_title": "Book of Mormon",
+        "book_title": "1 Nephi",
+        "book_short_title": "1 Ne.",
+        "chapter_number": 3,
+        "verse_number": 7,
+        "verse_title": "1 Nephi 3:7",
+        "verse_short_title": "1 Ne. 3:7",
+        "scripture_text": "And it came to pass that I, Nephi, said unto my father: I will go and do the things which the Lord hath commanded, for I know that the Lord giveth no commandments unto the children of men, save he shall prepare a way for them that they may accomplish the thing which he commandeth them."
+    }
+
+]

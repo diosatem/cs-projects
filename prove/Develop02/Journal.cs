@@ -45,11 +45,11 @@ public class Journal
         Console.WriteLine("Reading list from file...");
         if (File.Exists(filename))
         {
-            string[] lines = System.IO.File.ReadAllLines(filename);
+            string[] lines = File.ReadAllLines(filename);
 
             foreach (string line in lines)
             {
-                string[] parts = line.Split(",");
+                string[] parts = line.Split("/");
                 string _date = parts[0];
                 string _prompt = parts[1];
                 string _response = parts[2];

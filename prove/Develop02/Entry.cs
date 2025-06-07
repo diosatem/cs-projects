@@ -13,6 +13,6 @@ public class Entry
 
     public string DisplaySingleEntry()
     {
-        return $"Date: {_date}\nPrompt: {_prompt}\nResponse: {_response}\n";
+        return $"Date: {_date} / Prompt: {_prompt} / Response: {_response}";
     }
 }

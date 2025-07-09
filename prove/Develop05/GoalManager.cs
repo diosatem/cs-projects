@@ -73,7 +73,7 @@ public class GoalManager
         }
         else
         {
-            Console.Write("Opps, file not found.");
+            Console.Write("Sorry, file not found.");
         }
     }
 

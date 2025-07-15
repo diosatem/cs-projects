@@ -18,9 +18,8 @@ public class Address
         return _country.Trim().ToUpper() == "USA";
     }
 
-    public void DisplayAddress()
+    public string GetFullAddress()
     {
-        Console.WriteLine($"{_streetAddress}\n{_city}\n{_stateOrProvince}\n{_country}");
+        return $"\n   {_streetAddress}\n   {_city}\n   {_stateOrProvince}\n   {_country}";
     }
-
 }

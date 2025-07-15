@@ -1,4 +1,4 @@
-public class Customer : Order
+public class Customer
 {
     private string _customerName;
     private Address _address;
@@ -9,9 +9,14 @@ public class Customer : Order
         _address = address;
     }
 
-    public Customer()
+    public string GetCustomerName()
     {
-        
+        return _customerName;
+    }
+
+    public string GetAddress()
+    {
+        return _address.GetFullAddress();
     }
 
     public bool IsFromUSA()
@@ -19,8 +24,8 @@ public class Customer : Order
         return _address.IsInUSA();
     }
 
-    // public void DisplayCustomer()
-    // {
-    //     Console.WriteLine($"{_customerName}\n{_addresses}");
-    // }
+    public string GetCustomerDetails()
+    {
+        return $"Customer name: {_customerName}\nCustomer address: {_address.GetFullAddress()}";
+    }
 }

@@ -76,8 +76,7 @@ class Program
 
         foreach (Video v in videos)
         {
-            v.DisplayVideo();
-            
+            v.DisplayVideo();            
         }
     }
 }

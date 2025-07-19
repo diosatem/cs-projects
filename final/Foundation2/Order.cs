@@ -25,18 +25,22 @@ public class Order
 
     public void DisplayPackingLabel()
     {
+        Console.WriteLine("------------------");
         Console.WriteLine("PACKING LABEL");
+        Console.WriteLine("------------------");
         foreach (Product product in _products)
         {
             Console.WriteLine($"Product Name: {product.GetProductName()}");
             Console.WriteLine($"Product ID: {product.GetProductId()}");
-            Console.WriteLine("---");
+            Console.WriteLine();
         }
     }
 
     public void DisplayShippingLabel()
     {
+        Console.WriteLine("------------------");
         Console.WriteLine("SHIPPING LABEL");
+        Console.WriteLine("------------------");
         Console.WriteLine(_customer.GetCustomerDetails());
     }
 
@@ -47,20 +51,22 @@ public class Order
 
     public void DisplayOrder()
     {
+        Console.WriteLine("/////////////////////////////////////////");
         DisplayShippingLabel();
         Console.WriteLine();
-
+        Console.WriteLine("------------------");
         Console.WriteLine("ORDER SUMMARY");
+        Console.WriteLine("------------------");
         foreach (Product product in _products)
         {
             product.DisplayProduct();
-            Console.WriteLine("---");
+            Console.WriteLine();
         }
 
         Console.WriteLine($"Total Price: ${GetTotalPrice()}");
         Console.WriteLine();
 
         DisplayPackingLabel();
-        Console.WriteLine();
+        Console.WriteLine("/////////////////////////////////////////");
     }
 }
